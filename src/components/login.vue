@@ -79,7 +79,7 @@ export default {
                     if (status !== 0) {
                         return alert('error!');
                     } else {
-                        window.localStorage.setItem('token', token);
+                        window.sessionStorage.setItem('token', token);
                         location.href ='/#/index'
                      }
                 } else {
